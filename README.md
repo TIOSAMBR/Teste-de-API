@@ -1,6 +1,6 @@
-# Teste-de-API
+# TESTE DE API
 
-# Descrição do Código: Sistema de Anúncios e Usuários com Autenticação (Incompleto)
+# Descrição do Código: TESTE DE API (Incompleto)
 
 Este código implementa um sistema web para gerenciamento de anúncios e usuários com funcionalidades de autenticação. Abaixo está uma descrição detalhada de cada componente:
 
