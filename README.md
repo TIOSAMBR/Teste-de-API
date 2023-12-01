@@ -7,8 +7,7 @@ Este código implementa um sistema web para gerenciamento de anúncios e usuári
 # Estrutura Geral:
 **HTML:**
 
-**Meta e Estilos:** Define meta tags, a codificação de caracteres e estilos CSS para a interface do usuário.
-
+**Meta e Estilos:** Define meta tags, a codificação de caracteres e estilos CSS para a interface do usuário.br
 **Formulários:** Contém formulários para Login, Cadastro, Criação de Anúncios, Edição de Usuário e uma Página Principal. Também há um contêiner para exibir anúncios e mensagens.
 
 **Scripts:** Inclui a biblioteca jwt-decode e scripts JavaScript para a interatividade da página.
