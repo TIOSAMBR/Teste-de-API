@@ -23,7 +23,9 @@ Outras Funções Utilitárias: Funções utilitárias, como limpar formulários,
 
 # Documentação Externa:
 Documentação da API: http://204.48.20.110/api-docs/
+
 URL Base da API: http://204.48.20.110/
+
 Documentação / Exemplo Postman: Postman Documentation
 
 # Ambiente de Desenvolvimento:
