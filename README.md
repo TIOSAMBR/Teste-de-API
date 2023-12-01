@@ -20,8 +20,8 @@ Manipulação de Usuários: Funções para editar dados do usuário, excluir usu
 Navegação entre Páginas: Funções para mostrar diferentes páginas, incluindo a página principal.
 Autenticação e Interação com o Servidor: Funções para login, cadastro, criação de anúncios e logout.
 Outras Funções Utilitárias: Funções utilitárias, como limpar formulários, esconder formulários, exibir mensagens.
-# Documentação Externa:
 
+# Documentação Externa:
 Documentação da API: http://204.48.20.110/api-docs/
 URL Base da API: http://204.48.20.110/
 Documentação / Exemplo Postman: Postman Documentation
