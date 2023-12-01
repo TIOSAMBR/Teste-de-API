@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/dist/index.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Página de Login -->
+  <form id="loginForm">
+    <h2>Login</h2>
+    <label for="loginEmail">E-mail:</label>
+    <input type="email" id="loginEmail" name="loginEmail" required>
+    <label for="loginSenha">Senha:</label>
+    <input type="password" id="loginSenha" name="loginSenha" required>
+    <button type="button" onclick="realizarLogin()">Realizar Login</button>
+    <button type="button" onclick="mostrarPagina('cadastroForm')">Ir para Cadastro</button>
+  </form>
+
+  <!-- Página de Cadastro de Usuário -->
+  <form id="cadastroForm">
+    <h2>Cadastro de Usuário</h2>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+    <button type="button" onclick="cadastrarUsuario()">Cadastrar Usuário</button>
+  </form>
+
+  <!-- Página de Criação de Anúncio -->
+  <form id="anuncioForm">
+    <h2>Criar Anúncio</h2>
+    <label for="tituloAnuncio">Título do Anúncio:</label>
+    <input type="text" id="tituloAnuncio" name="tituloAnuncio" required>
+    <label for="descricaoAnuncio">Descrição do Anúncio:</label>
+    <textarea id="descricaoAnuncio" name="descricaoAnuncio" required></textarea>
+    <label for="precoAnuncio">Preço do Anúncio:</label>
+    <input type="number" id="precoAnuncio" name="precoAnuncio" required>
+    <button type="button" onclick="criarAnuncio()">Criar Anúncio</button>
+    <button type="button" onclick="mostrarPagina('paginaPrincipal')">Pagina Principal</button>
+  </form>
+
+  <!-- Página de Edição de Usuário -->
+  <form id="edicaoUsuarioForm" style="display: none;">
+    <h2>Editar Usuário</h2>
+    <label for="editNome">Novo Nome:</label>
+    <input type="text" id="editNome" name="editNome" required>
+    <label for="editEmail">Novo E-mail:</label>
+    <input type="email" id="editEmail" name="editEmail" required>
+    <label for="editSenha">Nova Senha:</label>
+    <input type="password" id="editSenha" name="editSenha" required>
+    <button type="button" onclick="editarUsuario()">Salvar Alterações</button>
+  </form>
+
+  <!-- Página Principal (depois de logar) -->
+  <div id="paginaPrincipal" style="display: none;">
+    <h2>Bem-vindo!</h2>
+    <div>
+      <h3 id="nomeUsuario">Nome: </h3>
+      <h3 id="emailUsuario">Email: </h3>
+      <button type="button" onclick="atualizarInformacoesUsuario()">Atualizar Informações do Usuário</button>
+    </div>
+    <button type="button" onclick="buscarAnuncios()">Meus Anúncios</button>
+    <button type="button" onclick="mostrarPagina('edicaoUsuarioForm')">Editar Usuário</button>
+    <button type="button" onclick="mostrarPagina('anuncioForm')">Criar Anúncio</button>
+    <button type="button" id="logoutButton" onclick="deslogarUsuario()">Logout</button>
+    <button type="button" onclick="excluirUsuario()">Excluir Usuário</button>
+  </div>
+
+  <!-- Página de Edição de Anúncio -->
+  <form id="edicaoAnuncioForm" style="display: none;">
+    <h2>Editar Anúncio</h2>
+    <label for="tituloAnuncioEdicao">Novo Título do Anúncio:</label>
+    <input type="text" id="tituloAnuncioEdicao" name="tituloAnuncioEdicao" required>
+    <label for="descricaoAnuncioEdicao">Nova Descrição do Anúncio:</label>
+    <textarea id="descricaoAnuncioEdicao" name="descricaoAnuncioEdicao" required></textarea>
+    <label for="precoAnuncioEdicao">Novo Preço do Anúncio:</label>
+    <input type="number" id="precoAnuncioEdicao" name="precoAnuncioEdicao" required>
+    <button type="button" onclick="editarAnuncio()">Salvar Alterações</button>
+  </form>
+
+  <div class="mensagem" id="mensagem"></div>
+  <div id="anunciosContainer"></div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
