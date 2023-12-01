@@ -30,6 +30,7 @@ Documentação / Exemplo Postman: Postman Documentation
 
 # Ambiente de Desenvolvimento:
 IDE: Visual Studio Code (VSCode)
+
 Extensões Recomendadas: Pode-se otimizar a experiência de desenvolvimento instalando extensões como "Live Server" para facilitar a visualização da página web em tempo real e "JavaScript (ES6) code snippets" para atalhos úteis no desenvolvimento JavaScript.
 
 # Fluxo Geral:
