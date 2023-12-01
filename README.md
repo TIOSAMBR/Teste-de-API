@@ -9,23 +9,16 @@ Este código implementa um sistema web para gerenciamento de anúncios e usuári
 
 **Meta e Estilos:** Define meta tags, a codificação de caracteres e estilos CSS para a interface do usuário.<br>
 **Formulários:** Contém formulários para Login, Cadastro, Criação de Anúncios, Edição de Usuário e uma Página Principal. Também há um contêiner para exibir anúncios e mensagens.
-
 **Scripts:** Inclui a biblioteca jwt-decode e scripts JavaScript para a interatividade da página.
 
 **JavaScript:**
 
-**Configuração Inicial:** Utiliza o evento DOMContentLoaded para chamar a função de configuração inicial (setup).
-
-**Manipulação de Tokens JWT:** Funções para salvar, obter e limpar tokens no localStorage e para obter dinamicamente o ID do usuário atual a partir do token.
-
-**Manipulação de Anúncios:** Funções para exibir, editar e excluir anúncios, buscar e exibir anúncios, e eventos relacionados a anúncios.
-
-**Manipulação de Usuários:** Funções para editar dados do usuário, excluir usuário e atualizar informações do usuário, e obter dados do usuário a partir do token.
-
-**Navegação entre Páginas:** Funções para mostrar diferentes páginas, incluindo a página principal.
-
-**Autenticação e Interação com o Servidor:** Funções para login, cadastro, criação de anúncios e logout.
-
+**Configuração Inicial:** Utiliza o evento DOMContentLoaded para chamar a função de configuração inicial (setup).<br>
+**Manipulação de Tokens JWT:** Funções para salvar, obter e limpar tokens no localStorage e para obter dinamicamente o ID do usuário atual a partir do token.<br>
+**Manipulação de Anúncios:** Funções para exibir, editar e excluir anúncios, buscar e exibir anúncios, e eventos relacionados a anúncios.<br>
+**Manipulação de Usuários:** Funções para editar dados do usuário, excluir usuário e atualizar informações do usuário, e obter dados do usuário a partir do token.<br>
+**Navegação entre Páginas:** Funções para mostrar diferentes páginas, incluindo a página principal.<br>
+**Autenticação e Interação com o Servidor:** Funções para login, cadastro, criação de anúncios e logout.<br>
 **Outras Funções Utilitárias:** Funções utilitárias, como limpar formulários, esconder formulários, exibir mensagens.
 
 # Documentação Externa:
