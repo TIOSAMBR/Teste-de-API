@@ -43,5 +43,6 @@ Manipulação de Tokens: Funções gerenciam tokens JWT para autenticação.
 # Observações Adicionais:
 O código utiliza o método fetch para interações com o servidor, como solicitações GET, POST, PUT e DELETE.
 A dependência externa jwt-decode é importada para decodificar tokens JWT.
+Este sistema proporciona uma experiência completa de gerenciamento de anúncios e usuários, garantindo autenticação segura e funcionalidades eficazes para os usuários. A documentação externa fornece informações adicionais sobre a API, incluindo a base URL, endpoints disponíveis e exemplos de requisições no Postman.
 
 **Nota:** Este projeto encontra-se ainda incompleto. Algumas funcionalidades podem não estar totalmente implementadas ou testadas. Recomenda-se a consulta à documentação da API para obter informações detalhadas sobre o funcionamento do sistema.
