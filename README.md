@@ -12,6 +12,7 @@ Formulários: Contém formulários para Login, Cadastro, Criação de Anúncios,
 Scripts: Inclui a biblioteca jwt-decode e scripts JavaScript para a interatividade da página.
 
 **JavaScript:**
+
 Configuração Inicial: Utiliza o evento DOMContentLoaded para chamar a função de configuração inicial (setup).
 Manipulação de Tokens JWT: Funções para salvar, obter e limpar tokens no localStorage e para obter dinamicamente o ID do usuário atual a partir do token.
 Manipulação de Anúncios: Funções para exibir, editar e excluir anúncios, buscar e exibir anúncios, e eventos relacionados a anúncios.
