@@ -34,10 +34,10 @@ IDE: Visual Studio Code (VSCode)
 Extensões Recomendadas: Pode-se otimizar a experiência de desenvolvimento instalando extensões como "Live Server" para facilitar a visualização da página web em tempo real e "JavaScript (ES6) code snippets" para atalhos úteis no desenvolvimento JavaScript.
 
 # Fluxo Geral:
-Início da Página: O formulário de login é exibido por padrão.
-Login Bem-Sucedido: Após o login, a página principal é mostrada, permitindo ações como criar anúncios, editar usuário, etc.
-Interação com Anúncios e Usuários: Funções relacionadas a anúncios e usuários possibilitam a criação, edição, exclusão e visualização de informações.
-Navegação entre Páginas: Funções de navegação mostram ou ocultam formulários conforme necessário.
+Início da Página: O formulário de login é exibido por padrão.<br>
+Login Bem-Sucedido: Após o login, a página principal é mostrada, permitindo ações como criar anúncios, editar usuário, etc.<br>
+Interação com Anúncios e Usuários: Funções relacionadas a anúncios e usuários possibilitam a criação, edição, exclusão e visualização de informações.<br>
+Navegação entre Páginas: Funções de navegação mostram ou ocultam formulários conforme necessário.<br>
 Manipulação de Tokens: Funções gerenciam tokens JWT para autenticação.
 
 # Observações Adicionais:
